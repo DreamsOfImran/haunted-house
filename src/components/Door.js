@@ -15,7 +15,7 @@ const Door = () => {
   const heightTexture = textureLoader.load('/haunted-house/textures/door/height.jpg')
   const normalTexture = textureLoader.load('/haunted-house/textures/door/normal.jpg')
   const metalnessTexture = textureLoader.load('/haunted-house/textures/door/metalness.jpg')
-  const roughtnessTexture = textureLoader.load('/haunted-house/textures/door/roughtness.jpg')
+  const roughtnessTexture = textureLoader.load('/haunted-house/textures/door/roughness.jpg')
   
   return (
     <mesh ref={ref}>
