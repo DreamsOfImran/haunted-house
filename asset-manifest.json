@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/haunted-house/static/css/main.031c0888.chunk.css",
-    "main.js": "/haunted-house/static/js/main.a0bacd1a.chunk.js",
-    "main.js.map": "/haunted-house/static/js/main.a0bacd1a.chunk.js.map",
+    "main.js": "/haunted-house/static/js/main.4287c3aa.chunk.js",
+    "main.js.map": "/haunted-house/static/js/main.4287c3aa.chunk.js.map",
     "runtime-main.js": "/haunted-house/static/js/runtime-main.fe4808d2.js",
     "runtime-main.js.map": "/haunted-house/static/js/runtime-main.fe4808d2.js.map",
-    "static/js/2.bc08cce3.chunk.js": "/haunted-house/static/js/2.bc08cce3.chunk.js",
-    "static/js/2.bc08cce3.chunk.js.map": "/haunted-house/static/js/2.bc08cce3.chunk.js.map",
+    "static/js/2.c5579ec1.chunk.js": "/haunted-house/static/js/2.c5579ec1.chunk.js",
+    "static/js/2.c5579ec1.chunk.js.map": "/haunted-house/static/js/2.c5579ec1.chunk.js.map",
     "index.html": "/haunted-house/index.html",
     "static/css/main.031c0888.chunk.css.map": "/haunted-house/static/css/main.031c0888.chunk.css.map",
-    "static/js/2.bc08cce3.chunk.js.LICENSE.txt": "/haunted-house/static/js/2.bc08cce3.chunk.js.LICENSE.txt"
+    "static/js/2.c5579ec1.chunk.js.LICENSE.txt": "/haunted-house/static/js/2.c5579ec1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fe4808d2.js",
-    "static/js/2.bc08cce3.chunk.js",
+    "static/js/2.c5579ec1.chunk.js",
     "static/css/main.031c0888.chunk.css",
-    "static/js/main.a0bacd1a.chunk.js"
+    "static/js/main.4287c3aa.chunk.js"
   ]
 }
