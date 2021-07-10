@@ -1,4 +1,4 @@
-name: MasterDeployCI
+name: DeployCI
 on:
   push:
     branches:
