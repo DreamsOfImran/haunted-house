@@ -16,16 +16,14 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       const ambientFolder = gui.addFolder("Ambient Light")
-      ambientFolder.add(ambientLightRef.current, 'intensity', 0, 1, 0.001)
+      ambientFolder.add(ambientLightRef.current, 'intensity').min(0).max(1).step(0.001)
 
       const moonLight = gui.addFolder("Moon Light")
       moonLight.add(moonLightRef.current, 'intensity').min(0).max(1).step(0.001)
-      moonLight.add(moonLightRef.current.position, 'x', -5, 5, 0.001)
-      moonLight.add(moonLightRef.current.position, 'y', -5, 5, 0.001)
-      moonLight.add(moonLightRef.current.position, 'z', -5, 5, 0.001)
-
+      moonLight.add(moonLightRef.current.position, 'x').min(-5).max(5).step(0.001)
+      moonLight.add(moonLightRef.current.position, 'y').min(-5).max(5).step(0.001)
+      moonLight.add(moonLightRef.current.position, 'z').min(-5).max(5).step(0.001)
     }, 1000)
-
   }, [])
 
   return (
