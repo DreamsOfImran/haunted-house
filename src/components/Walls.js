@@ -5,10 +5,10 @@ const Walls = () => {
   const ref = useRef()
   const textureLoader = new TextureLoader()
 
-  const colorTexture = textureLoader.load('/textures/bricks/color.jpg')
-  const ambientOcclusionTexture = textureLoader.load('/textures/bricks/ambientOcclusion.jpg')
-  const normalTexture = textureLoader.load('/textures/bricks/normal.jpg')
-  const roughnessTexture = textureLoader.load('/textures/bricks/roughness.jpg')
+  const colorTexture = textureLoader.load('/haunted-house/textures/bricks/color.jpg')
+  const ambientOcclusionTexture = textureLoader.load('/haunted-house/textures/bricks/ambientOcclusion.jpg')
+  const normalTexture = textureLoader.load('/haunted-house/textures/bricks/normal.jpg')
+  const roughnessTexture = textureLoader.load('/haunted-house/textures/bricks/roughness.jpg')
 
   useEffect(() => {
     ref.current.position.y = 1.25

@@ -2,6 +2,7 @@
   "name": "haunted-house",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://DreamsOfImran.github.io/haunted-house",
   "dependencies": {
     "@react-three/drei": "^7.0.6",
     "@react-three/fiber": "^7.0.4",

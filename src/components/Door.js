@@ -9,13 +9,13 @@ const Door = () => {
     ref.current.geometry.setAttribute('uv2', new Float32BufferAttribute(ref.current.geometry.attributes.uv.array, 2))
   }, [])
   const textureLoader = new TextureLoader()
-  const colorTexture = textureLoader.load('/textures/door/color.jpg')
-  const alphaTexture = textureLoader.load('/textures/door/alpha.jpg')
-  const aoTexture = textureLoader.load('/textures/door/ambientOcclusion.jpg')
-  const heightTexture = textureLoader.load('/textures/door/height.jpg')
-  const normalTexture = textureLoader.load('/textures/door/normal.jpg')
-  const metalnessTexture = textureLoader.load('/textures/door/metalness.jpg')
-  const roughtnessTexture = textureLoader.load('/textures/door/roughtness.jpg')
+  const colorTexture = textureLoader.load('/haunted-house/textures/door/color.jpg')
+  const alphaTexture = textureLoader.load('/haunted-house/textures/door/alpha.jpg')
+  const aoTexture = textureLoader.load('/haunted-house/textures/door/ambientOcclusion.jpg')
+  const heightTexture = textureLoader.load('/haunted-house/textures/door/height.jpg')
+  const normalTexture = textureLoader.load('/haunted-house/textures/door/normal.jpg')
+  const metalnessTexture = textureLoader.load('/haunted-house/textures/door/metalness.jpg')
+  const roughtnessTexture = textureLoader.load('/haunted-house/textures/door/roughtness.jpg')
   
   return (
     <mesh ref={ref}>
